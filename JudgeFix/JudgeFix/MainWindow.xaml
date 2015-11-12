@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:JudgeFix"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" WindowStyle="None" AllowsTransparency="True" Background="Black" Opacity="0.8">
+
     <Grid HorizontalAlignment="Left" Height="430" Margin="10,10,0,0" VerticalAlignment="Top" Width="780" RenderTransformOrigin="-4.175,-2.211">
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -15,5 +16,7 @@
             <ColumnDefinition Width="23*"/>
             <ColumnDefinition Width="7*"/>
         </Grid.ColumnDefinitions>
+        <Button x:Name="button" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Height="43" VerticalAlignment="Top" Width="43" RenderTransformOrigin="0.808,0.654" Background="#FF222222" Foreground="White"/>
     </Grid>
+
 </Window>
