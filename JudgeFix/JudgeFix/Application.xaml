@@ -4,6 +4,8 @@
     xmlns:local="clr-namespace:JudgeFix"
     StartupUri="MainWindow.xaml">
     <Application.Resources>
-        
+
+
+
     </Application.Resources>
 </Application>
