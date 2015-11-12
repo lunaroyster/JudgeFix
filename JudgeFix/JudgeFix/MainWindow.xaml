@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:JudgeFix"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" WindowStyle="None" AllowsTransparency="True" Background="Black" Opacity="0.8">
+        Title="MainWindow" Height="450" Width="800" Background="Black" Opacity="0.8" AllowsTransparency="True" WindowStyle="None">
     <Window.Resources>
         <Style TargetType="Button">
             <Setter Property="Background" Value="#FF222222" />
@@ -15,7 +15,7 @@
 
 
 
-    <Grid HorizontalAlignment="Left" Height="430" Margin="10,10,0,0" VerticalAlignment="Top" Width="780" RenderTransformOrigin="-4.175,-2.211">
+    <Grid Height="430" Margin="10,10,0,0" Width="780" RenderTransformOrigin="-4.175,-2.211">
 
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -29,6 +29,9 @@
         <Button x:Name="b_setting" HorizontalAlignment="Left" Width="43" Grid.Column="1">
             <Image x:Name="image" Height="33" Width="33"/>
         </Button>
+        <Button x:Name="b_minimize" HorizontalAlignment="Left" Margin="48,0,0,0" VerticalAlignment="Top" Width="43" Height="43" Grid.Column="1"/>
+        <Button x:Name="b_minimize_Copy" HorizontalAlignment="Left" Margin="96,0,0,0" VerticalAlignment="Top" Width="43" Height="43" Grid.Column="1"/>
+        <Button x:Name="b_close" HorizontalAlignment="Left" Margin="144,0,0,0" VerticalAlignment="Top" Width="43" Height="43" Grid.Column="1"/>
 
     </Grid>
 
