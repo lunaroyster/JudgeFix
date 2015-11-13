@@ -15,7 +15,7 @@
 
 
 
-    <Grid Height="430" Margin="10,10,0,0" Width="780" RenderTransformOrigin="-4.175,-2.211">
+    <Grid Height="430" Margin="10" Width="780" RenderTransformOrigin="-4.175,-2.211">
 
         <Grid.RowDefinitions>
             <RowDefinition/>

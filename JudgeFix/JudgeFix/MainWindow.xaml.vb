@@ -5,6 +5,10 @@ Class MainWindow
     End Sub
 
     Private Sub b_minimize_Copy_Click(sender As Object, e As RoutedEventArgs) Handles b_minimize_Copy.Click
+        switchWindowState()
+    End Sub
+
+    Private Sub switchWindowState()
         If Me.WindowState = WindowState.Normal Then
             Me.WindowState = WindowState.Maximized
         Else
