@@ -12,16 +12,16 @@ Class MainWindow
         switchWindowState()
     End Sub
 
+    Private Sub b_close_Click(sender As Object, e As RoutedEventArgs) Handles b_close.Click
+        Me.Close()
+    End Sub
+
     Private Sub switchWindowState()
         If Me.WindowState = WindowState.Normal Then
             Me.WindowState = WindowState.Maximized
         Else
             Me.WindowState = WindowState.Normal
         End If
-    End Sub
-
-    Private Sub b_close_Click(sender As Object, e As RoutedEventArgs) Handles b_close.Click
-        Me.Close()
     End Sub
 
 #End Region

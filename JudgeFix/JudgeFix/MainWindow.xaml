@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:JudgeFix"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Background="Black" Opacity="0.8" AllowsTransparency="True" WindowStyle="None">
+        Title="MainWindow" Height="450" Width="800" Background="Black" Opacity="0.8" AllowsTransparency="True" WindowStyle="None" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch">
     <Window.Resources>
         <Style TargetType="Button">
             <Setter Property="Background" Value="#FF222222" />
@@ -15,15 +15,15 @@
 
 
 
-    <Grid Height="430" Margin="10" Width="780" RenderTransformOrigin="-4.175,-2.211">
+    <Grid Margin="0,10,10,0" RenderTransformOrigin="-4.175,-2.211" HorizontalAlignment="Right" VerticalAlignment="Top" Width="780" Height="430">
 
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition Height="9*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="3*"/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="593*"/>
+            <ColumnDefinition Width="187*"/>
         </Grid.ColumnDefinitions>
 
         <Button x:Name="b_setting" HorizontalAlignment="Left" Width="43" Grid.Column="1">
