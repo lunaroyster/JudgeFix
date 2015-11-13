@@ -1,5 +1,9 @@
 ﻿
 Class MainWindow
+
+
+#Region "Controls"
+
     Private Sub b_minimize_Click(sender As Object, e As RoutedEventArgs) Handles b_minimize.Click
         Me.WindowState = WindowState.Minimized
     End Sub
@@ -19,8 +23,6 @@ Class MainWindow
     Private Sub b_close_Click(sender As Object, e As RoutedEventArgs) Handles b_close.Click
         Me.Close()
     End Sub
-
-#Region "Controls"
 
 #End Region
 
