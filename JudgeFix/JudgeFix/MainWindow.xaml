@@ -28,7 +28,7 @@
         <Button x:Name="b_minimize" HorizontalAlignment="Left" Margin="96,0,0,0" VerticalAlignment="Top" Width="43" Height="43" Grid.Column="1"/>
         <Button x:Name="b_minimize_Copy" HorizontalAlignment="Left" Margin="144,0,0,0" VerticalAlignment="Top" Width="43" Height="43" Grid.Column="1"/>
         <Button x:Name="b_close" HorizontalAlignment="Left" Margin="192,0,0,0" VerticalAlignment="Top" Width="43" Height="43" Grid.Column="1"/>
-        <StackPanel x:Name="TeamViewPanel" Grid.RowSpan="2" Grid.Column="1" ForceCursor="True" Grid.Row="1" Grid.IsSharedSizeScope="True"/>
+        <StackPanel x:Name="TeamViewPanel" Grid.RowSpan="2" Grid.Column="1" ForceCursor="True" Grid.Row="1" Grid.IsSharedSizeScope="True" CanVerticallyScroll="True" ScrollViewer.CanContentScroll="True"/>
         <Button x:Name="b_settings" HorizontalAlignment="Left" VerticalAlignment="Top" Width="43" Height="43" Grid.Column="1" Margin="48,0,0,0"/>
 
     </Grid>

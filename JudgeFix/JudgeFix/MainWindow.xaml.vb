@@ -33,6 +33,10 @@ Class MainWindow
         tm.Content = TeamName
         TeamViewPanel.Children.Add(tm)
     End Sub
+
+    Private Sub b_settings_Click(sender As Object, e As RoutedEventArgs) Handles b_settings.Click
+        addTeamToPanel("Team", "TM132")
+    End Sub
 #End Region
 
 #Region "SQL"
