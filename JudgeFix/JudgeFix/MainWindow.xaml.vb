@@ -27,7 +27,12 @@ Class MainWindow
 #End Region
 
 #Region "Information Flow"
-
+    Private Sub addTeamToPanel(TeamName As String, TeamID As String)
+        Dim tm As New Button 'TODO Decide control
+        tm.Name = TeamID
+        tm.Content = TeamName
+        TeamViewPanel.Children.Add(tm)
+    End Sub
 #End Region
 
 #Region "SQL"
