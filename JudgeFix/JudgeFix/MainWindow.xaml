@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:JudgeFix"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Background="Black" Opacity="0.8" AllowsTransparency="True" WindowStyle="None" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch">
+        Title="MainWindow" Height="585" Width="1040" Background="Black" Opacity="0.8" AllowsTransparency="True" WindowStyle="None" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch">
     <Window.Resources>
         <Style TargetType="Button">
             <Setter Property="Background" Value="#FF222222" />
@@ -15,7 +15,7 @@
 
 
 
-    <Grid Margin="0,10,10,0" RenderTransformOrigin="-4.175,-2.211" HorizontalAlignment="Right" VerticalAlignment="Top" Width="780" Height="430">
+    <Grid RenderTransformOrigin="-4.175,-2.211" Margin="10">
 
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -25,14 +25,11 @@
             <ColumnDefinition Width="593*"/>
             <ColumnDefinition Width="187*"/>
         </Grid.ColumnDefinitions>
-
-        <Button x:Name="b_setting" HorizontalAlignment="Left" Width="43" Grid.Column="1">
-            <Image x:Name="image" Height="33" Width="33"/>
-        </Button>
         <Button x:Name="b_minimize" HorizontalAlignment="Left" Margin="48,0,0,0" VerticalAlignment="Top" Width="43" Height="43" Grid.Column="1"/>
         <Button x:Name="b_minimize_Copy" HorizontalAlignment="Left" Margin="96,0,0,0" VerticalAlignment="Top" Width="43" Height="43" Grid.Column="1"/>
         <Button x:Name="b_close" HorizontalAlignment="Left" Margin="144,0,0,0" VerticalAlignment="Top" Width="43" Height="43" Grid.Column="1"/>
-        <StackPanel Grid.RowSpan="2" Grid.Column="1" ForceCursor="True" Grid.Row="1" Grid.IsSharedSizeScope="True"/>
+        <StackPanel Grid.RowSpan="2" Grid.Column="1" ForceCursor="True" Grid.Row="1" Grid.IsSharedSizeScope="True" Background="#FFF00A0A"/>
+        <Button x:Name="b_settings" HorizontalAlignment="Left" VerticalAlignment="Top" Width="43" Height="43" Grid.Column="1"/>
 
     </Grid>
 
